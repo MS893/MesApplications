@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfos - MesApplications</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .back-btn {
+      color: var(--secondary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 2rem;
+      transition: 0.3s;
+    }
+
+    .back-btn:hover {
+      color: var(--primary);
+      transform: translateX(-5px);
+    }
+
+    .detail-hero {
+      padding-top: 60px;
+    }
+
+    .feature-item {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      padding: 1.5rem;
+      border-radius: 20px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg-decor"></div>
+  <nav class="navbar navbar-custom sticky-top">
+    <div class="container"><a class="navbar-brand fw-bold" href="../index.html">PILOT_APPS</a></div>
+  </nav>
+  <main class="container py-5">
+    <a href="../index.html" class="back-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left me-2"
+        viewBox="0 0 16 16">
+        <path fill_rule="evenodd"
+          d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+      </svg>
+      Retour au catalogue
+    </a>
+    <div class="row g-5 detail-hero align-items-center mb-5">
+      <div class="col-lg-4 text-center">
+        <img src="../assets/img/perfos.png" alt="Perfos" class="img-fluid rounded-5 shadow-lg"
+          style="max-width: 280px; border: 1px solid var(--glass-border);">
+      </div>
+      <div class="col-lg-8">
+        <h1 class="display-3 fw-bold mb-3">Perfos</h1>
+        <p class="h4 text-secondary mb-4">Application qui calcule les performances décollage et atterrissage des avions
+          mémorisés.</p>
+        <div class="d-flex gap-3">
+          <span class="badge bg-warning text-dark px-3 py-2">Sécurité</span>
+          <span class="badge bg-dark border border-secondary px-3 py-2">Calculateur</span>
+        </div>
+      </div>
+    </div>
+    <div class="row g-5">
+      <div class="col-lg-8">
+        <h2 class="mb-4">Description</h2>
+        <p class="lead text-secondary">
+          Perfos est l'outil indispensable pour tout pilote soucieux de sa sécurité. Ne laissez plus la place au doute
+          lors de vos calculs de performances.
+          L'application mémorise les caractéristiques techniques de vos aéronefs préférés et fournit des résultats
+          précis basés sur les conditions du jour.
+        </p>
+        <hr class="my-5 opacity-25">
+        <h3 class="mb-4">Fonctionnalités Clés</h3>
+        <div class="feature-item">
+          <h5>Base de Données Avion</h5>
+          <p class="mb-0 text-secondary">Enregistrez les paramètres de vos avions (masse, centrage, manuel de vol) pour
+            des calculs ultra-rapides.</p>
+        </div>
+        <div class="feature-item">
+          <h5>Calculs en Temps Réel</h5>
+          <p class="mb-0 text-secondary">Intégration de la température, de l'altitude-pression et de la composante de
+            vent.</p>
+        </div>
+        <div class="feature-item">
+          <h5>Détermination des Sécurités</h5>
+          <p class="mb-0 text-secondary">Affiche clairement les marges de sécurité et les distances de
+            décollage/atterrissage nécessaires.</p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="app-card">
+          <h4>Sécurisez vos vols</h4>
+          <p class="small mb-4 text-secondary">Téléchargez Perfos et assurez-vous que la piste est toujours assez longue
+            pour vous.</p>
+          <a href="#" class="btn btn-primary-custom btn-pill w-100 py-3 mb-3">Disponible sur Android</a>
+          <p class="text-center small text-muted mb-0">Version 1.8.2 • Android 8.0+</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <p class="text-secondary small">&copy; 2026 MesApplications - Écosystème Android pour Pilotes VFR</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

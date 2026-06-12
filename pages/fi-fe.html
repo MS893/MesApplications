@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FI-FE - MesApplications</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .back-btn {
+      color: var(--secondary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 2rem;
+      transition: 0.3s;
+    }
+
+    .back-btn:hover {
+      color: var(--primary);
+      transform: translateX(-5px);
+    }
+
+    .detail-hero {
+      padding-top: 60px;
+    }
+
+    .feature-item {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      padding: 1.5rem;
+      border-radius: 20px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg-decor"></div>
+  <nav class="navbar navbar-custom sticky-top">
+    <div class="container"><a class="navbar-brand fw-bold" href="../index.html">PILOT_APPS</a></div>
+  </nav>
+  <main class="container py-5">
+    <a href="../index.html" class="back-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left me-2"
+        viewBox="0 0 16 16">
+        <path fill_rule="evenodd"
+          d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+      </svg>
+      Retour au catalogue
+    </a>
+    <div class="row g-5 detail-hero align-items-center mb-5">
+      <div class="col-lg-4 text-center">
+        <img src="../assets/img/fi_fe.png" alt="FI-FE" class="img-fluid rounded-5 shadow-lg"
+          style="max-width: 280px; border: 1px solid var(--glass-border);">
+      </div>
+      <div class="col-lg-8">
+        <h1 class="display-3 fw-bold mb-3">FI-FE</h1>
+        <p class="h4 text-secondary mb-4">Aide pour les FI et FE et même les IULM.</p>
+        <div class="d-flex gap-3">
+          <span class="badge bg-danger px-3 py-2">Instructeur</span>
+          <span class="badge bg-dark border border-secondary px-3 py-2">Professionnel</span>
+        </div>
+      </div>
+    </div>
+    <div class="row g-5">
+      <div class="col-lg-8">
+        <h2 class="mb-4">Description</h2>
+        <p class="lead text-secondary">
+          Conçue spécifiquement pour les Flight Instructors (FI) et Flight Examiners (FE), ainsi que pour les
+          instructeurs ULM (IULM),
+          cette application simplifie la gestion administrative et pédagogique de vos sessions d'instruction et
+          d'examen.
+        </p>
+        <hr class="my-5 opacity-25">
+        <h3 class="mb-4">Fonctionnalités Clés</h3>
+        <div class="feature-item">
+          <h5>Suivi de Progression</h5>
+          <p class="mb-0 text-secondary">Outils de reporting et de suivi pour chaque élève, centralisant les points
+            forts et les axes d'amélioration.</p>
+        </div>
+        <div class="feature-item">
+          <h5>Référentiels Formation</h5>
+          <p class="mb-0 text-secondary">Accès rapide aux standards de formation et aux livrets de progression adaptés à
+            chaque licence.</p>
+        </div>
+        <div class="feature-item">
+          <h5>Checklists Examinateur</h5>
+          <p class="mb-0 text-secondary">Aide à la conduite des tests en vol pour ne rien oublier lors de vos
+            évaluations FE.</p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="app-card">
+          <h4>Excellence Pédagogique</h4>
+          <p class="small mb-4 text-secondary">Simplifiez votre quotidien d'instructeur et concentrez-vous sur ce qui
+            compte : la transmission.</p>
+          <a href="#" class="btn btn-primary-custom btn-pill w-100 py-3 mb-3">Télécharger FI-FE</a>
+          <p class="text-center small text-muted mb-0">Version 3.1.5 • Android 9.0+</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <p class="text-secondary small">&copy; 2026 MesApplications - Écosystème Android pour Pilotes VFR</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

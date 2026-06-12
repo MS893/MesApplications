@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mes Applications Android - Aviation & Pilotage</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="description"
+    content="Découvrez mes applications Android dédiées aux pilotes VFR, instructeurs et passionnés d'aéronautique.">
+</head>
+
+<body>
+  <div class="bg-decor"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">PILOT_APPS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#applications">Mes Apps</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-gradient text-center">
+    <div class="container">
+      <h1 class="hero-title animate-up">L'Aéronautique Digitale</h1>
+      <p class="lead text-secondary mb-5 mx-auto animate-up delay-100" style="max-width: 700px;">
+        Quatre outils conçus par un passionné pour les pilotes VFR, instructeurs et examinateurs.
+        Optimisez vos vols et vos formations.
+      </p>
+      <div class="animate-up delay-200">
+        <a href="#applications" class="btn btn-primary-custom btn-pill btn-lg">Explorer la suite</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Applications Section -->
+  <section id="applications" class="py-5">
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <!-- Radio PPL -->
+        <div class="col-md-6 col-lg-5 col-xl-3 animate-up delay-100">
+          <a href="pages/radio-ppl.html" class="app-card">
+            <div class="app-icon-wrapper">
+              <img src="assets/img/radio_ppl.png" alt="Radio PPL" class="app-icon">
+            </div>
+            <h3>Radio PPL</h3>
+            <p>Entraînement à la phraséologie radio pour le pilote VFR. Maîtrisez les communications avec assurance.</p>
+          </a>
+        </div>
+
+        <!-- Perfos -->
+        <div class="col-md-6 col-lg-5 col-xl-3 animate-up delay-200">
+          <a href="pages/perfos.html" class="app-card">
+            <div class="app-icon-wrapper">
+              <img src="assets/img/perfos.png" alt="Perfos" class="app-icon">
+            </div>
+            <h3>Perfos</h3>
+            <p>Calculateur de performances décollage et atterrissage précis pour une sécurité optimale à chaque vol.</p>
+          </a>
+        </div>
+
+        <!-- FI-FE -->
+        <div class="col-md-6 col-lg-5 col-xl-3 animate-up delay-300">
+          <a href="pages/fi-fe.html" class="app-card">
+            <div class="app-icon-wrapper">
+              <img src="assets/img/fi_fe.png" alt="FI-FE" class="app-icon">
+            </div>
+            <h3>FI-FE</h3>
+            <p>L'assistant numérique pour les Flight Instructors (FI), Examiners (FE) et instructeurs ULM.</p>
+          </a>
+        </div>
+
+        <!-- Aéroclub -->
+        <div class="col-md-6 col-lg-5 col-xl-3 animate-up delay-400">
+          <a href="pages/aeroclub.html" class="app-card">
+            <div class="app-icon-wrapper">
+              <img src="assets/img/aeroclub.png" alt="Aéroclub" class="app-icon">
+            </div>
+            <h3>Aéroclub</h3>
+            <p>Couteau suisse du pilote et mémo VFR indispensable pour la gestion de vos activités en club.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer container">
+    <p class="text-secondary small">&copy; 2026 MesApplications - Écosystème Android pour Pilotes VFR</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

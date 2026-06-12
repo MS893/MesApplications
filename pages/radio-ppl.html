@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radio PPL - MesApplications</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .back-btn {
+      color: var(--secondary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 2rem;
+      transition: 0.3s;
+    }
+
+    .back-btn:hover {
+      color: var(--primary);
+      transform: translateX(-5px);
+    }
+
+    .detail-hero {
+      padding-top: 60px;
+    }
+
+    .feature-item {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      padding: 1.5rem;
+      border-radius: 20px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg-decor"></div>
+
+  <nav class="navbar navbar-custom sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="../index.html">PILOT_APPS</a>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <a href="../index.html" class="back-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left me-2"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+      </svg>
+      Retour au catalogue
+    </a>
+
+    <div class="row g-5 detail-hero align-items-center mb-5">
+      <div class="col-lg-4 text-center">
+        <img src="../assets/img/radio_ppl.png" alt="Radio PPL" class="img-fluid rounded-5 shadow-lg"
+          style="max-width: 280px; border: 1px solid var(--glass-border);">
+      </div>
+      <div class="col-lg-8">
+        <h1 class="display-3 fw-bold mb-3">Radio PPL</h1>
+        <p class="h4 text-secondary mb-4">Entraînement à la radio (phraséologie) nécessaire au pilote VFR.</p>
+        <div class="d-flex gap-3">
+          <span class="badge bg-primary px-3 py-2">Formation</span>
+          <span class="badge bg-dark border border-secondary px-3 py-2">Android</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-5">
+      <div class="col-lg-8">
+        <h2 class="mb-4">Description</h2>
+        <p class="lead text-secondary">
+          La communication radio est un pilier de la sécurité en vol. Radio PPL vous accompagne dans votre apprentissage
+          de la phraséologie aéronautique française. Que vous soyez élève-pilote ou pilote breveté souhaitant se
+          rafraîchir la mémoire,
+          cette application offre une méthode structurée et efficace.
+        </p>
+        <hr class="my-5 opacity-25">
+        <h3 class="mb-4">Fonctionnalités Clés</h3>
+        <div class="feature-item">
+          <h5>Phraséologie Standard</h5>
+          <p class="mb-0 text-secondary">Apprentissage des expressions conventionnelles pour chaque phase de vol
+            (Départ, Transit, Arrivée).</p>
+        </div>
+        <div class="feature-item">
+          <h5>Simulations de Scénarios</h5>
+          <p class="mb-0 text-secondary">Mises en situation réelles pour tester vos réflexes en communication.</p>
+        </div>
+        <div class="feature-item">
+          <h5>Mémo Rapide</h5>
+          <p class="mb-0 text-secondary">Un accès instantané aux codes et termes essentiels pendant votre préparation de
+            vol.</p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="app-card">
+          <h4>Prêt à décoller ?</h4>
+          <p class="small mb-4 text-secondary">Rejoignez les centaines de pilotes qui améliorent leur phraséologie avec
+            Radio PPL.</p>
+          <a href="#" class="btn btn-primary-custom btn-pill w-100 py-3 mb-3">Télécharger sur Play Store</a>
+          <p class="text-center small text-muted mb-0">Version 2.4.0 • Android 8.0+</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="text-secondary small">&copy; 2026 MesApplications - Écosystème Android pour Pilotes VFR</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
