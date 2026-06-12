@@ -118,13 +118,13 @@
 
             const title = document.getElementById('title').value;
             const message = document.getElementById('message').value;
-            const email = "xiomfy@gmail.com";
+            const email = "skydev.android@gmail.com";
 
             // Construction du lien mailto avec encodage des caractères spéciaux
             const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent('[Suggestion App] ' + title)}&body=${encodeURIComponent(message)}`;
 
-            // Ouverture de l'application de messagerie par défaut
-            window.location.href = mailtoUrl;
+            // Ouverture de l'application de messagerie dans un nouvel onglet
+            window.open(mailtoUrl, '_blank');
           });
         </script>
       </div>

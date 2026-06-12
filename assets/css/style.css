@@ -38,6 +38,25 @@ h4 {
   z-index: -1;
   background: radial-gradient(circle at 80% 20%, rgba(37, 99, 235, 0.1), transparent),
     radial-gradient(circle at 20% 80%, rgba(245, 158, 11, 0.05), transparent);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg-aeroclub {
+  background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('../img/13L.jpg') !important;
+}
+
+.bg-perfos {
+  background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('../img/runway.jpg') !important;
+}
+
+.bg-fife {
+  background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('../img/humour.jpg') !important;
+}
+
+.bg-radio {
+  background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('../img/radio.jpg') !important;
 }
 
 /* Header & Hero */
@@ -50,6 +69,7 @@ h4 {
   font-size: 4rem;
   background: linear-gradient(to right, #fff, #94a3b8);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1.5rem;
 }
