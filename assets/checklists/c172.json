@@ -1,0 +1,216 @@
+{
+  "aircraftName": "Cessna C172 S",
+  "sections": [
+    {
+      "title": "DOCUMENTS/PRÉVOL",
+      "items": [
+        {"task": "SEP et classe 2 ou LAPL", "action": "Valides"},
+        {"task": "Certificat d'examen de navigabilité", "action": "DATE À JOUR"},
+        {"task": "Assurance avion", "action": "DATE À JOUR"},
+        {"task": "Carnet de route", "action": "Vérifié"},
+        {"task": "Documents avion", "action": "À bord"},
+        {"task": "Quantité carburant", "action": "Vérifiée"},
+        {"task": "PRÉVOL COMPLÈTE", "action": "Effectuée"}
+      ]
+    },
+    {
+      "title": "AVANT MISE EN ROUTE",
+      "items": [
+        {"task": "CACHE PITOT", "action": "ENLEVÉ"},
+        {"task": "VISITE Prevol", "action": "EFFECTUÉE"},
+        {"task": "BARRE DE MANŒUVRE", "action": "ENLEVÉE"},
+        {"task": "DOCUMENTATION", "action": "A BORD"},
+        {"task": "INDEX HORA METRE", "action": "NOTE"},
+        {"task": "SIEGES CEINTURES", "action": "RÉGLÉES VERROUILLÉS"},
+        {"task": "ÉQUIPEMENTS SPÉCIFIQUES (GILETS)", "action": "A BORD"},
+        {"task": "BATTERIE", "action": "ON"},
+        {"task": "PANNEAU D'ALARME", "action": "VÉRIFIER"},
+        {"task": "MIXTURE", "action": "ÉTOUFFOIR"},
+        {"task": "FREIN DE PARC", "action": "SERRÉ"},
+        {"task": "SÉLECTEUR ESSENCE", "action": "BOTH"},
+        {"task": "AUTONOMIE", "action": "ANNONCÉE"},
+        {"task": "DISJONCTEUR", "action": "VÉRIFIÉS"},
+        {"task": "BEACON & ANTICOLLISION", "action": "ON"},
+        {"task": "CLEFS DE CONTACT", "action": "EN PLACE"}
+      ]
+    },
+    {
+      "title": "MISE EN ROUTE",
+      "items": [
+        {"task": "PIEDS", "action": "SUR FREINS"},
+        {"task": "ABORDS", "action": "DEGAGÉS"},
+        {"task": "MOTEUR FROID : MANETTES DES GAZ", "action": "OUVERT 0,5 CM"},
+        {"task": "MOTEUR FROID : POMPE ESSENCE", "action": "ON"},
+        {"task": "MOTEUR FROID : MIXTURE", "action": "AVANCÉE >> 3 à 5 Gal/h puis ÉTOUFFOIR"},
+        {"task": "MOTEUR FROID : POMPE ESSENCE", "action": "OFF"},
+        {"task": "MOTEUR FROID : DÉMARREUR", "action": "START"},
+        {"task": "MOTEUR FROID : MIXTURE", "action": "DOUCEMENT VERS PLEIN RICHE"},
+        {"task": "MOTEUR CHAUD : MANETTE DES GAZ", "action": "OUVERT 0,5 CM"},
+        {"task": "MOTEUR CHAUD : CONTACT MAGNETO", "action": "START"},
+        {"task": "MOTEUR CHAUD : MIXTURE", "action": "DOUCEMENT VERS PLEIN RICHE"},
+        {"task": "PRESSION D'HUILE", "action": "VÉRIFIÉE"},
+        {"task": "REGIME", "action": "1200 Tr/min"},
+        {"task": "ALTERNATEUR", "action": "ON, CHARGE VÉRIFIÉE"},
+        {"task": "PANNEAU ALARMES", "action": "ÉTEINT"},
+        {"task": "AVIONIQUE MASTER", "action": "ON"}
+      ]
+    },
+    {
+      "title": "ROULAGE",
+      "items": [
+        {"task": "HEURE BLOCK", "action": "NOTEE"},
+        {"task": "FREIN DE PARC", "action": "DESSERRE"},
+        {"task": "FREINS", "action": "TESTES, EFFICACES ET SYMÉTRIQUES"},
+        {"task": "CHECK VSV", "action": "EFFECTUÉE"},
+        {"task": "TRANSPONDEUR", "action": "ALT"},
+        {"task": "SUCCION", "action": "4.5 à 5.5"},
+        {"task": "CONSERVATEUR DE CAP", "action": "VÉRIFIÉ"},
+        {"task": "VOLETS", "action": "RENTRÉS"},
+        {"task": "RADIO/NAV/GPS", "action": "RÉGLÉS"},
+        {"task": "ALTIMÈTRES", "action": "RÉGLÉS, COMPARÉS"},
+        {"task": "HORIZON ARTIFICIEL", "action": "VÉRIFIÉ"},
+        {"task": "PILOT AUTOMATIQUE", "action": "TEST EFFECTUÉ"},
+        {"task": "COMPENSATEUR", "action": "DÉBATTEMENT EFFECTUÉ"}
+      ]
+    },
+    {
+      "title": "ESSAIS MOTEUR",
+      "items": [
+        {"task": "FREIN DE PARC", "action": "SERRÉ"},
+        {"task": "PHARE TAXI", "action": "OFF"},
+        {"task": "T°/P° HUILE", "action": "VÉRIFIÉE, ARC VERT"},
+        {"task": "REGIME", "action": "2000 tr/mn"},
+        {"task": "MAGNETOS", "action": "PERTE < 150 tr/mn ÉCART < 50 tr/mn"},
+        {"task": "CHARGE", "action": "VÉRIFIÉE"},
+        {"task": "SUCCION", "action": "VÉRIFIÉE"},
+        {"task": "ESSAI RALENTI", "action": "600 tr/mn STABLE"},
+        {"task": "REGIME", "action": "1200 tr/Mn"}
+      ]
+    },
+    {
+      "title": "AVANT ALIGNEMENT",
+      "items": [
+        {"task": "BRIEFING DEPART", "action": "EFFECTUÉ"},
+        {"task": "BRIEFING SECURITE", "action": "EFFECTUÉ"},
+        {"task": "APPROCHE", "action": "DÉGAGÉE"},
+        {"task": "COMMANDES", "action": "LIBRES ET DANS LE BON SENS"},
+        {"task": "COMPENSATEUR", "action": "POSITION DÉCOLLAGE"},
+        {"task": "VOLETS", "action": "0°"},
+        {"task": "PHARE ATTERRISSAGE", "action": "ON"},
+        {"task": "FEUX NAVIGATION", "action": "A LA DEMANDE"},
+        {"task": "MAGNETOS", "action": "BOTH"},
+        {"task": "TRANSPONDEUR", "action": "ALT"},
+        {"task": "INSTRUMENTS MOTEUR", "action": "VÉRIFIÉS, ARC VERT"},
+        {"task": "PORTES & FENÊTRES", "action": "FERMÉE, VERROUILLÉE"}
+      ]
+    },
+    {
+      "title": "ALIGNEMENT",
+      "items": [
+        {"task": "FREIN DE PARC", "action": "DÉSSERRÉ"},
+        {"task": "CONSERVATEUR DE CAP", "action": "VÉRIFIE"},
+        {"task": "HEURE", "action": "NOTEE"},
+        {"task": "POMPE", "action": "OFF"},
+        {"task": "PHARES", "action": "ON"},
+        {"task": "VOLETS", "action": "0°"},
+        {"task": "NOTE VOLETS 10°", "action": "Améliore roulement/passage 15m de 10%, mais pente de montée dégradée"}
+      ]
+    },
+    {
+      "title": "DÉCOLLAGE",
+      "items": [
+        {"task": "PUISSANCE", "action": "DISPONIBLE 2300 Tr/Min"},
+        {"task": "BADIN", "action": "ACTIF"},
+        {"task": "ALARMES", "action": "VÉRIFIÉES"}
+      ]
+    },
+    {
+      "title": "APRÉS DÉCOLLAGE",
+      "items": [
+        {"task": "VOLETS", "action": "SI SORTIS, RENTRÉS"},
+        {"task": "INSTRUMENTS MOTEURS", "action": "VERIFIES, ARC VERT"}
+      ]
+    },
+    {
+      "title": "CROISIÈRE",
+      "items": [
+        {"task": "PARAMÈTRES MOTEURS", "action": "2400 Tr/min"},
+        {"task": "INSTRUMENTS MOTEURS", "action": "VERIFIES, ARC VERT"},
+        {"task": "CONSERVATEUR DE CAP", "action": "VÉRIFIÉ"},
+        {"task": "ALTIMÈTRE", "action": "RÈGLES, COMPARES"},
+        {"task": "RADIO/NAV/GPS", "action": "AFFICHES"}
+      ]
+    },
+    {
+      "title": "POINT TOURNANT",
+      "items": [
+        {"task": "CHRONO", "action": "TOP"},
+        {"task": "CAP", "action": "AFFICHE"},
+        {"task": "VENT", "action": "CONFIRME"},
+        {"task": "HEA", "action": "CALCULÉE"},
+        {"task": "ALTITUDE", "action": "VÉRIFIÉE"},
+        {"task": "RADIO/NAV/GPS", "action": "REGLE"},
+        {"task": "ESSENCE", "action": "AUTONOMIE ANNONCÉE"}
+      ]
+    },
+    {
+      "title": "DESCENTE",
+      "items": [
+        {"task": "BRIEFING ARRIVÉE", "action": "EFFECTUÉ"},
+        {"task": "ALTIMÈTRES", "action": "RÈGLES, COMPARES"},
+        {"task": "SÉLECTEUR ESSENCE", "action": "BOTH"}
+      ]
+    },
+    {
+      "title": "APPROCHE",
+      "items": [
+        {"task": "MIXTURE", "action": "PLEIN RICHE"},
+        {"task": "PHARE ATTERRISSAGE", "action": "ON"},
+        {"task": "VOLETS si < 85 kt", "action": "10°"},
+        {"task": "Vi", "action": "80 KT"}
+      ]
+    },
+    {
+      "title": "FINALE",
+      "items": [
+        {"task": "VOLETS", "action": "SORTIS"},
+        {"task": "MIXTURE", "action": "PLEIN RICHE"},
+        {"task": "PHARE", "action": "ON"},
+        {"task": "VITESSE (VOLETS 0°/10°)", "action": "70 KT + KVe"},
+        {"task": "VITESSE (VOLETS 20°)", "action": "65 KT + Kve"},
+        {"task": "VITESSE (VOLETS 30°)", "action": "60 KT + Kve"},
+        {"task": "VITESSE (VITESSE > 400 FT)", "action": "80 KTS"}
+      ]
+    },
+    {
+      "title": "APRES ATTERRISSAGE",
+      "items": [
+        {"task": "VOLETS", "action": "RENTRÉS"},
+        {"task": "COMPENSATEUR", "action": "NEUTRE"},
+        {"task": "PHARE ATTERRISSAGE", "action": "OFF"},
+        {"task": "PHARE TAXI", "action": "ON"},
+        {"task": "PITOT HEAT", "action": "OFF"},
+        {"task": "TRANSPONDEUR", "action": "ALT 7000"}
+      ]
+    },
+    {
+      "title": "ARRÊT MOTEUR",
+      "items": [
+        {"task": "FREIN DE PARC", "action": "SERRÉ"},
+        {"task": "RADIO", "action": "CLOTURÉE"},
+        {"task": "VOL DE NUIT : BACKLIGHT INTENSITY", "action": "100%"},
+        {"task": "AVIONIQUE MASTER", "action": "OFF"},
+        {"task": "PHARES TAXI", "action": "OFF"},
+        {"task": "REGIME", "action": "INFÉRIEUR à 900 Tr/mn"},
+        {"task": "ESSAI COUPURE MAGNÉTOS", "action": "ÉFFECTUÉ"},
+        {"task": "REGIME", "action": "1100 Tr/mn"},
+        {"task": "MIXTURE", "action": "ÉTOUFFOIR"},
+        {"task": "CLÉS", "action": "OFF"},
+        {"task": "MAGNÉTOS", "action": "RETIRÉES"},
+        {"task": "ALTERNATEUR", "action": "OFF"},
+        {"task": "BATTERIE", "action": "OFF"},
+        {"task": "ANTICOLLISION", "action": "OFF"}
+      ]
+    }
+  ]
+}

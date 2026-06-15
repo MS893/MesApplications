@@ -1,0 +1,154 @@
+{
+  "aircraftName": "PA28-180",
+  "sections": [
+    {
+      "title": "DOCUMENTS/PRÉVOL",
+      "items": [
+        {"task": "SEP et classe 2 ou LAPL", "action": "Valides"},
+        {"task": "Certificat d'examen de navigabilité", "action": "DATE À JOUR"},
+        {"task": "Assurance avion", "action": "DATE À JOUR"},
+        {"task": "Carnet de route", "action": "Vérifié"},
+        {"task": "Documents avion", "action": "À bord"},
+        {"task": "Quantité carburant", "action": "Vérifiée"},
+        {"task": "PRÉVOL COMPLÈTE", "action": "Effectuée"}
+      ]
+    },
+    {
+      "title": "1. AVANT MISE EN ROUTE",
+      "items": [
+        {"task": "Compteur Horaire", "action": "Noté"},
+        {"task": "Sièges", "action": "Réglés"},
+        {"task": "Commandes de vol", "action": "Vérifiées"},
+        {"task": "Frein de parking", "action": "Serré"},
+        {"task": "Moyens Radio / Transpondeur", "action": "OFF"},
+        {"task": "Tous Contacts", "action": "OFF"},
+        {"task": "Richesse", "action": "Plein riche (enfoncé)"},
+        {"task": "Réchauffe Carburateur", "action": "Froid (enfoncé)"},
+        {"task": "Compensateur", "action": "Débattement vérifié"},
+        {"task": "Volets", "action": "Rentrés"},
+        {"task": "Batterie", "action": "ON"},
+        {"task": "Essence", "action": "Ouverte, autonomie vérifié"}
+      ]
+    },
+    {
+      "title": "2. MISE EN ROUTE",
+      "items": [
+        {"task": "Feux Éclats (rotating)", "action": "ON"},
+        {"task": "Pompe", "action": "ON"},
+        {"task": "Injections", "action": "3 (6 par temps froid)"},
+        {"task": "Gaz", "action": "1 centimètre"},
+        {"task": "Magnétos", "action": "BOTH (1+2)"},
+        {"task": "Sécurité", "action": "Assurée"},
+        {"task": "Démarrage", "action": "Actionner"},
+        {"task": "Régime", "action": "Régler à 1200 T/mn"},
+        {"task": "Pression d'huile", "action": "Vérifier immédiatement"},
+        {"task": "Pompe", "action": "OFF"},
+        {"task": "Paramètres moteur", "action": "Zones vertes"}
+      ]
+    },
+    {
+      "title": "3. APRÈS MISE EN ROUTE",
+      "items": [
+        {"task": "Ceintures", "action": "Attachées"},
+        {"task": "Portière", "action": "Fermée / Verrouillée"},
+        {"task": "Contact général", "action": "ON"},
+        {"task": "Moyens Radio", "action": "Marche"},
+        {"task": "Fréquences", "action": "Affichées"},
+        {"task": "Altimètre", "action": "Réglé"},
+        {"task": "Top chrono", "action": "Noter heure de départ"}
+      ]
+    },
+    {
+      "title": "4. ROULAGE",
+      "items": [
+        {"task": "Sécurité", "action": "Assurée"},
+        {"task": "Freins", "action": "Desserrés"},
+        {"task": "Moyens gyros. (conservateur, horizon)", "action": "Vérifiés"}
+      ]
+    },
+    {
+      "title": "5. ESSAIS MOTEUR",
+      "items": [
+        {"task": "Frein de parking", "action": "Serré"},
+        {"task": "Régime", "action": "Régler à 800 T/mn"},
+        {"task": "Vérif. magnétos 1 et 2", "action": "Chute 125 T/mn max"},
+        {"task": "Essai réchauffe Carburateur", "action": "Légère chute"},
+        {"task": "Essai ralenti", "action": "Réduire à fond, inférieur à 900 tours"},
+        {"task": "Régime", "action": "Régler à 1200 T/mn"}
+      ]
+    },
+    {
+      "title": "6. AVANT DÉCOLLAGE",
+      "items": [
+        {"task": "Commandes de vol", "action": "Vérifiées"},
+        {"task": "Essence", "action": "Ouverte, autonomie vérifiée"},
+        {"task": "Richesse", "action": "Plein riche (enfoncé)"},
+        {"task": "Réchauffe carburateur", "action": "Froid (enfoncé)"},
+        {"task": "Conservateur", "action": "Recalé / Suction OK"},
+        {"task": "Portière", "action": "Fermée / Verrouillée"},
+        {"task": "Passagers", "action": "Attachés"},
+        {"task": "Compensateur", "action": "Neutre"},
+        {"task": "Paramètres moteur", "action": "Zones vertes"},
+        {"task": "Pompe", "action": "ON"},
+        {"task": "Volets", "action": "1er cran"},
+        {"task": "Frein de parking", "action": "Desserré"}
+      ]
+    },
+    {
+      "title": "BRIEFING AVANT DÉCOLLAGE",
+      "items": [
+        {"task": "Briefing : Je décolle piste …… , vitesse de rotation 55 kt", "action": ""},
+        {"task": "Panne avant la rotation : Tout réduit, je freine dans l’axe, je dégage la piste", "action": ""},
+        {"task": "Panne mineure après la rotation : Tour de piste adapté pour revenir me poser", "action": ""},
+        {"task": "Panne moteur après la rotation : Manche avant, vitesse de finesse max 75-85 kt, atterrissage devant (secteur +/-30°)", "action": ""},
+        {"task": "Confirmer briefing", "action": "Fait"}
+      ]
+    },
+    {
+      "title": "7. ALIGNEMENT",
+      "items": [
+        {"task": "Conservateur", "action": "Vérifié sur QFU piste"},
+        {"task": "Gaz", "action": "Poussé à fond"},
+        {"task": "Régime", "action": "2400 tr. minimum"}
+      ]
+    },
+    {
+      "title": "BRIEFING ARRIVÉE",
+      "items": [
+        {"task": "Aérodrome : Contrôlé ou non contrôlé. Toujours accessible (ATIS ou visuel)", "action": ""},
+        {"task": "Radio : Fréquence affichée en standby. Contact 3 min avant point entrée ou la verticale", "action": ""},
+        {"task": "Descente / Approche : Vent arrière, étape de base et finale à 85/65 kt", "action": ""},
+        {"task": "Intégration : Standard (si non contrôlé) ou suivant instructions du contrôleur", "action": ""},
+        {"task": "Tour de piste : Altitude réglementaire terrain", "action": ""},
+        {"task": "Intentions : Pour un touché, départ ou complet", "action": ""},
+        {"task": "Menaces / Spécificités : Éviter régimes prolongés entre 2295 et 2450 RPM", "action": ""},
+        {"task": "Confirmer briefing", "action": "Fait"}
+      ]
+    },
+    {
+      "title": "8. APRÈS ATTERRISSAGE",
+      "items": [
+        {"task": "Volets", "action": "Rentrés"},
+        {"task": "Réchauffage carburateur", "action": "Froid (Enfoncé)"},
+        {"task": "Pompe", "action": "OFF"},
+        {"task": "Phares", "action": "OFF"}
+      ]
+    },
+    {
+      "title": "9. ARRÊT MOTEUR",
+      "items": [
+        {"task": "Frein de parc", "action": "Serré"},
+        {"task": "Top chrono", "action": "Arrêt, noter heure d'arrivée"},
+        {"task": "Moyens Radio, Transpondeur", "action": "OFF"},
+        {"task": "Tous contacts (sauf batterie)", "action": "OFF"},
+        {"task": "Régime", "action": "Ralenti 900 tours"},
+        {"task": "Essai coupure par magnétos", "action": "Vérifié"},
+        {"task": "Régime", "action": "1300 T/mn"},
+        {"task": "Étouffer", "action": "Cde Richesse tirée à fond"},
+        {"task": "Batterie", "action": "OFF"},
+        {"task": "Clés", "action": "Enlevées"},
+        {"task": "Compteur Horaire", "action": "Noté"}
+      ]
+    }
+  ]
+}

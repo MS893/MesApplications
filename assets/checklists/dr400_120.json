@@ -1,0 +1,195 @@
+{
+  "aircraftName": "DR400-120",
+  "sections": [
+    {
+      "title": "DOCUMENTS/PRÉVOL",
+      "items": [
+        {"task": "SEP et classe 2 ou LAPL", "action": "Valides"},
+        {"task": "Certificat d'examen de navigabilité", "action": "DATE À JOUR"},
+        {"task": "Assurance avion", "action": "DATE À JOUR"},
+        {"task": "Carnet de route", "action": "Vérifié"},
+        {"task": "Documents avion", "action": "À bord"},
+        {"task": "Quantité carburant", "action": "Vérifiée"},
+        {"task": "PRÉVOL COMPLÈTE", "action": "Effectuée"}
+      ]
+    },
+    {
+      "title": "1. AVANT MISE EN ROUTE",
+      "items": [
+        {"task": "ATIS (par téléphone ou radio)", "action": "Notée"},
+        {"task": "Verrière", "action": "Fermée, non verrouillée"},
+        {"task": "Frein de parc", "action": "Serré"},
+        {"task": "Sièges", "action": "Réglés, verrouillés"},
+        {"task": "Ceintures et harnais", "action": "Attachés"},
+        {"task": "Commandes de vol", "action": "Libres"},
+        {"task": "Radio MASTER", "action": "OFF"},
+        {"task": "Robinet essence", "action": "Ouvert"},
+        {"task": "Jaugeur essence et autonomie", "action": "Vérifié"},
+        {"task": "Horamètre", "action": "Noté"},
+        {"task": "Volets", "action": "Rentrés"},
+        {"task": "ATTENTION : Si le démarreur a été sollicité plus de 10 secondes, attendre au moins une minute avant de procéder à un nouveau démarrage.", "action": ""}
+      ]
+    },
+    {
+      "title": "2A. DÉMARRAGE DU MOTEUR (Procédure normale)",
+      "items": [
+        {"task": "Interrupteur batterie", "action": "ON"},
+        {"task": "Réchauffage carburateur", "action": "Froid (pousser)"},
+        {"task": "Mixture", "action": "Plein riche (vers le haut)"},
+        {"task": "Feu anti-collision", "action": "ON"},
+        {"task": "Sélecteur magnétos", "action": "Position L (LEFT)"},
+        {"task": "Pompe électrique", "action": "ON"},
+        {"task": "Manette des gaz", "action": "5 injections puis 1/4 en avant"},
+        {"task": "Zone hélice", "action": "Dégagée"},
+        {"task": "Démarreur", "action": "Marche (15 à 20 sec max)"}
+      ]
+    },
+    {
+      "title": "2B. DÉMARRAGE DU MOTEUR (Procédure moteur chaud)",
+      "items": [
+        {"task": "Interrupteur batterie", "action": "ON"},
+        {"task": "Réchauffage carburateur", "action": "Froid (pousser)"},
+        {"task": "Mixture", "action": "Plein riche (vers le haut)"},
+        {"task": "Feu anti-collision", "action": "ON"},
+        {"task": "Sélecteur magnétos", "action": "Position L (LEFT)"},
+        {"task": "Pompe électrique", "action": "ON"},
+        {"task": "Manette des gaz", "action": "2 injections MAX puis 1/2 en avant"},
+        {"task": "Zone hélice", "action": "Dégagée"},
+        {"task": "Démarreur", "action": "Marche (15 à 20 sec max)"}
+      ]
+    },
+    {
+      "title": "2C. DÉMARRAGE DU MOTEUR (Procédure par temps froid)",
+      "items": [
+        {"task": "Interrupteur batterie", "action": "ON"},
+        {"task": "Réchauffage carburateur", "action": "Froid (pousser)"},
+        {"task": "Mixture", "action": "Plein riche (vers le haut)"},
+        {"task": "Feu anti-collision", "action": "ON"},
+        {"task": "Sélecteur magnétos", "action": "Position L (LEFT)"},
+        {"task": "Pompe électrique", "action": "ON"},
+        {"task": "Manette des gaz", "action": "5 injections puis 1/4 en avant"},
+        {"task": "Zone hélice", "action": "Dégagée"},
+        {"task": "Démarreur", "action": "Marche (15 à 20 sec max)"},
+        {"task": "Soutien régime : injections successives jusqu’à 900-1000 tr/min", "action": ""}
+      ]
+    },
+    {
+      "title": "2D. DÉMARRAGE DU MOTEUR (Moteur NOYÉ)",
+      "items": [
+        {"task": "Pompe électrique", "action": "Arrêt"},
+        {"task": "Mixture", "action": "Étouffoir (vers le bas)"},
+        {"task": "Manette des gaz", "action": "Plein gaz (pousser)"},
+        {"task": "Démarreur", "action": "Actionné quelques secondes"},
+        {"task": "Si démarrage", "action": "Mixture RICHE"}
+      ]
+    },
+    {
+      "title": "3. APRÈS MISE EN ROUTE",
+      "items": [
+        {"task": "Pression d’huile (dans les 20s MAX)", "action": "Plage verte"},
+        {"task": "Sélecteur magnétos", "action": "BOTH (L+R)"},
+        {"task": "Régime", "action": "1200 tr/min, 1000 tr/min si le moteur est chaud"},
+        {"task": "Alternateur", "action": "ON"},
+        {"task": "Voltmètre", "action": "Plage verte"},
+        {"task": "Pompe électrique", "action": "OFF"},
+        {"task": "Pression d’essence", "action": "Plage verte"},
+        {"task": "Radio MASTER", "action": "ON"},
+        {"task": "Fréquences et transpondeur (GND)", "action": "Réglés"},
+        {"task": "Voyants", "action": "Testés"},
+        {"task": "Altimètre", "action": "Réglé QNH"},
+        {"task": "Indicateur de dépression", "action": "Vérifié"},
+        {"task": "Horizon artificiel", "action": "Vérifié"},
+        {"task": "Heure bloc", "action": "Notée"}
+      ]
+    },
+    {
+      "title": "4. ROULAGE",
+      "items": [
+        {"task": "Phares", "action": "ON"},
+        {"task": "Frein de parc", "action": "Desserré"},
+        {"task": "Freins", "action": "Essayés et symétriques"},
+        {"task": "Gyroscopes et bille", "action": "Vérifiés"},
+        {"task": "ATTENTION : Éviter de dépasser 1200 tr/min tant que la température d’huile reste en plage jaune.", "action": ""}
+      ]
+    },
+    {
+      "title": "5. POINT FIXE",
+      "items": [
+        {"task": "NB : Si la température d’huile est inférieure à 40°C, vous pouvez déjà faire le briefing avant décollage, puis revenir aux essais moteur (POINT FIXE).", "action": ""},
+        {"task": "Frein de parc", "action": "Serré"},
+        {"task": "Pression et température d’huile", "action": "Plage verte, mini 40°C"},
+        {"task": "Pression d’essence", "action": "Plage verte"},
+        {"task": "Mixture", "action": "Plein riche (vers le haut)"},
+        {"task": "Réchauffage carburateur", "action": "Froid (pousser)"},
+        {"task": "1. Vérification magnétos (à 2000 tr/min)", "action": "Perte max 175 tr/min) / L vs R (max 50 tr/min)"},
+        {"task": "2. Réchauffage carburateur", "action": "Chaud (tirer) -> Chute ~100 tr/min"},
+        {"task": "3. Vérification mixture", "action": "Appauvrir -> Chute -> Plein riche"},
+        {"task": "4. Vérification ralenti", "action": "Entre 600 et 850 tr/min"},
+        {"task": "Régime", "action": "1000 à 1200 tr/min"}
+      ]
+    },
+    {
+      "title": "6. AVANT DÉCOLLAGE",
+      "items": [
+        {"task": "Commandes", "action": "Libres"},
+        {"task": "Sélecteur magnétos", "action": "BOTH (L+R)"},
+        {"task": "Cabine (sièges, ceintures)", "action": "Vérifiée"},
+        {"task": "Verrière", "action": "Fermée, verrouillée"},
+        {"task": "Robinet essence", "action": "Ouvert"},
+        {"task": "Pompe électrique", "action": "ON"},
+        {"task": "Trim de profondeur", "action": "Position décollage"},
+        {"task": "Instruments moteur", "action": "Plages vertes"},
+        {"task": "Volets", "action": "Plein sortis, puis 1er cran"},
+        {"task": "Conservateur de cap", "action": "Réglé"},
+        {"task": "Transpondeur", "action": "ALT"},
+        {"task": "Voyants alarmes", "action": "Éteints"}
+      ]
+    },
+    {
+      "title": "BRIEFING AVANT DÉCOLLAGE",
+      "items": [
+        {"task": "Briefing : Je décolle piste …… , vitesse de rotation 100 km/h", "action": ""},
+        {"task": "Panne avant la rotation : Tout réduit, je freine dans l’axe, je dégage la piste", "action": ""},
+        {"task": "Panne mineure après la rotation : Tour de piste adapté pour revenir me poser", "action": ""},
+        {"task": "Panne moteur après la rotation : Manche avant, vitesse 135 km/h, atterrissage devant (secteur +/-30°)", "action": ""}
+      ]
+    },
+    {
+      "title": "BRIEFING ARRIVÉE",
+      "items": [
+        {"task": "Aérodrome : Contrôlé ou non contrôlé. Toujours accessible (ATIS ou visuel)", "action": ""},
+        {"task": "Radio : Fréquence affichée en standby. Contact 3 min avant point entrée ou la verticale", "action": ""},
+        {"task": "Descente : Dans ... min", "action": ""},
+        {"task": "Intégration : Standard à ... ft (si non contrôlé), ou en suivant les instructions du contrôleur", "action": ""},
+        {"task": "Tour de piste : A ... ft", "action": ""},
+        {"task": "Intentions : Pour un touché, départ vers ..., sortie ..., ou un complet", "action": ""},
+        {"task": "Menaces : Lister les menaces", "action": ""}
+      ]
+    },
+    {
+      "title": "7. APRÈS ATTERRISSAGE",
+      "items": [
+        {"task": "Pompe électrique", "action": "OFF"},
+        {"task": "Volets", "action": "Rentrés"},
+        {"task": "Transpondeur", "action": "GND"}
+      ]
+    },
+    {
+      "title": "8. ARRÊT MOTEUR",
+      "items": [
+        {"task": "Frein de parc", "action": "Serré"},
+        {"task": "Radio MASTER", "action": "OFF"},
+        {"task": "Phares et feux de nav", "action": "OFF (sauf anti-col)"},
+        {"task": "Essai coupure AU RALENTI", "action": "Vérifié"},
+        {"task": "Régime", "action": "Entre 1000 et 1200 tr/min"},
+        {"task": "Mixture", "action": "Étouffoir (bas)"},
+        {"task": "Magnétos / Clés", "action": "OFF / retirées"},
+        {"task": "Alternateur", "action": "OFF"},
+        {"task": "Batterie", "action": "OFF"},
+        {"task": "Horamètre / Heure bloc", "action": "Notés"},
+        {"task": "Volets", "action": "Sortis (2e cran)"},
+        {"task": "Frein de parc", "action": "Desserré (si possible)"}
+      ]
+    }
+  ]
+}

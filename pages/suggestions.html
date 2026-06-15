@@ -109,6 +109,12 @@
             <textarea class="form-control" id="message" rows="5" placeholder="Décrivez votre idée en quelques lignes..."
               required></textarea>
           </div>
+          <div class="mb-4">
+            <label for="attachment" class="form-label">Joindre un fichier (PDF uniquement)</label>
+            <input type="file" class="form-control" id="attachment" accept="application/pdf">
+            <p class="small text-muted mt-2">Note: Vous devrez attacher manuellement le fichier sélectionné dans votre
+              application de messagerie après avoir cliqué sur le bouton ci-dessous.</p>
+          </div>
           <button type="submit" class="btn btn-primary-custom btn-pill w-100 py-3">Générer l'e-mail</button>
         </form>
 
@@ -121,7 +127,13 @@
             const email = "skydev.android@gmail.com";
 
             // Construction du lien mailto avec encodage des caractères spéciaux
-            const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent('[Suggestion App] ' + title)}&body=${encodeURIComponent(message)}`;
+            let body = message;
+            const attachment = document.getElementById('attachment').files[0];
+            if (attachment) {
+              body += `\n\n--- [Note: L'utilisateur a sélectionné le fichier : ${attachment.name}. Merci de vérifier qu'il est bien joint à cet e-mail.] ---`;
+            }
+
+            const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent('[Suggestion App] ' + title)}&body=${encodeURIComponent(body)}`;
 
             // Ouverture de l'application de messagerie dans un nouvel onglet
             window.open(mailtoUrl, '_blank');

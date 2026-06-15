@@ -111,6 +111,18 @@ h4 {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(37, 99, 235, 0.2);
 }
 
+.app-card.disabled {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.app-card.disabled:hover {
+  transform: none;
+  border-color: var(--glass-border);
+  box-shadow: none;
+}
+
 .app-icon-wrapper {
   width: 90px;
   height: 90px;
@@ -136,6 +148,22 @@ h4 {
   color: #94a3b8;
   font-size: 1rem;
   margin-bottom: 0;
+}
+
+.badge-soon {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background: var(--accent);
+  color: var(--dark);
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 6px 14px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+  z-index: 5;
 }
 
 /* Buttons */
