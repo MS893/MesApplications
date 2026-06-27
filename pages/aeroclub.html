@@ -35,6 +35,16 @@
       border-radius: 20px;
       margin-bottom: 1rem;
     }
+
+    .img-zoom {
+      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease;
+    }
+
+    .img-zoom:hover {
+      transform: scale(1.05);
+      border-color: var(--primary) !important;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 20px rgba(37, 99, 235, 0.15) !important;
+    }
   </style>
 </head>
 
@@ -133,12 +143,12 @@
             disponibles</a>
           <div class="mt-4 text-center">
             <img src="../assets/img/Screen1.jpeg" alt="Capture d'écran Aéroclub"
-              class="img-fluid rounded-4 shadow-lg border border-secondary border-opacity-25"
+              class="img-fluid rounded-4 shadow-lg border border-secondary border-opacity-25 img-zoom"
               style="max-height: 500px;">
           </div>
           <div class="mt-4 text-center">
             <img src="../assets/img/Screen2.jpeg" alt="Capture d'écran Aéroclub"
-              class="img-fluid rounded-4 shadow-lg border border-secondary border-opacity-25"
+              class="img-fluid rounded-4 shadow-lg border border-secondary border-opacity-25 img-zoom"
               style="max-height: 500px;">
           </div>
         </div>
