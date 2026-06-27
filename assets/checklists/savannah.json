@@ -1,0 +1,181 @@
+{
+  "aircraftName": "Savannah SR",
+  "sections": [
+    {
+      "title": "DOCUMENTS/PRÉVOL",
+      "items": [
+        {"task": "Carte d'identification", "action": "À bord"},
+        {"task": "Déclaration d'aptitude au vol", "action": "Valide"},
+        {"task": "Fiche d'identification", "action": "À bord"},
+        {"task": "Licence de station d'aéronef", "action": "À bord"},
+        {"task": "Licence de pilote (avec qualification radio)", "action": "Valide"}
+      ]
+    },
+    {
+      "title": "1. AVANT MISE EN ROUTE",
+      "items": [
+        {"task": "Portes", "action": "Fermées et sécurisées"},
+        {"task": "Parachute", "action": "Dégoupillé"},
+        {"task": "Siège", "action": "Réglé"},
+        {"task": "Ceintures", "action": "Ajustées"},
+        {"task": "Commandes de vol", "action": "Libres et dans le bon sens"},
+        {"task": "Quantité carburant", "action": "Vérifiée"},
+        {"task": "Vanne au sol", "action": "On"},
+        {"task": "Réservoir", "action": "Ext ou Int selon niveau"},
+        {"task": "MASTER (clé)", "action": "Un cran"},
+        {"task": "Horamètre", "action": "Noté"},
+        {"task": "Pompe auxiliaire essence", "action": "Tester - pression 0,2 mini"},
+        {"task": "Lampe témoin réserve carb", "action": "Vérifiée"},
+        {"task": "Trim", "action": "Vérifier - puis neutre"},
+        {"task": "Volets", "action": "Vérifier - puis rentrés"},
+        {"task": "Disjoncteurs", "action": "Vérifiés"},
+        {"task": "Avionics", "action": "Off"},
+        {"task": "Anti-coll", "action": "On"},
+        {"task": "Phare et feux de navigation", "action": "Off"}
+      ]
+    },
+    {
+      "title": "2A. DÉMARRAGE DU MOTEUR FROID",
+      "items": [
+        {"task": "Manche", "action": "Arrière"},
+        {"task": "Abords", "action": "Dégagés"},
+        {"task": "Magnétos", "action": "Les deux sur ON"},
+        {"task": "Gaz", "action": "Réduits"},
+        {"task": "Starter", "action": "Tiré et maintenu"},
+        {"task": "Démarreur", "action": "Actionné"},
+        {"task": "Régime moteur", "action": "2000 tours"},
+        {"task": "Starter", "action": "Repoussé / régime régulier"},
+        {"task": "Chauffage moteur", "action": "2000 tours 2 premières mn, puis 2200 tours"}
+      ]
+    },
+    {
+      "title": "2B. DÉMARRAGE DU MOTEUR CHAUD",
+      "items": [
+        {"task": "Manche", "action": "Arrière"},
+        {"task": "Abords", "action": "Dégagés"},
+        {"task": "Magnétos", "action": "Les deux sur ON"},
+        {"task": "Gaz", "action": "Poussés à 5 mm"},
+        {"task": "Démarreur", "action": "Actionné"},
+        {"task": "Régime moteur", "action": "2000 tours"}
+      ]
+    },
+    {
+      "title": "3. APRÈS MISE EN ROUTE",
+      "items": [
+        {"task": "Pression huile", "action": "Dans le vert"},
+        {"task": "Charge batterie", "action": "Vérifiée"},
+        {"task": "Avionics", "action": "ON"},
+        {"task": "Nav Lights", "action": "ON"},
+        {"task": "Landing Lights", "action": "Si nécessaire"},
+        {"task": "Transpondeur", "action": "ACS 7000"},
+        {"task": "VHF", "action": "ON"},
+        {"task": "ATIS (136.230)", "action": "Écoutée et notée"},
+        {"task": "Altimètre", "action": "Réglé"},
+        {"task": "Annonce radio", "action": "Effectuée"}
+      ]
+    },
+    {
+      "title": "4. ROULAGE",
+      "items": [
+        {"task": "Roulage", "action": "Quand T° = 50°C"},
+        {"task": "Frein de parc", "action": "Desserré"}
+      ]
+    },
+    {
+      "title": "5. POINT FIXE (ESSAIS MOTEUR)",
+      "items": [
+        {"task": "T° huile", "action": "> 50°C"},
+        {"task": "Frein", "action": "Serré"},
+        {"task": "Manche", "action": "Arrière"},
+        {"task": "Régime", "action": "4000 tours/mn"},
+        {"task": "Magnétos", "action": "Chute régime < 300 tours / Écart max 150 tours"},
+        {"task": "Réchauffage carbu", "action": "Essayé puis repoussé"},
+        {"task": "Régime", "action": "2000 tours/mn"}
+      ]
+    },
+    {
+      "title": "6. AVANT DÉCOLLAGE",
+      "items": [
+        {"task": "Portes", "action": "Verrouillées"},
+        {"task": "Ceintures", "action": "Bouclées"},
+        {"task": "Commandes vol", "action": "Testées"},
+        {"task": "Magnétos", "action": "Deux sur ON"},
+        {"task": "Réchauffage carbu", "action": "Poussé sur froid"},
+        {"task": "Vanne essence sol", "action": "ON"},
+        {"task": "Quantité essence", "action": "Annoncée"},
+        {"task": "Instruments moteurs", "action": "Vérifiés"},
+        {"task": "Liquide refroidissement", "action": "T° > 60°"},
+        {"task": "Trim", "action": "Neutre"},
+        {"task": "Volets", "action": "A la demande"},
+        {"task": "Briefing départ", "action": "Annoncé"},
+        {"task": "Briefing sécurité", "action": "Annoncé"}
+      ]
+    },
+    {
+      "title": "7A. DÉCOLLAGE STANDARD",
+      "items": [
+        {"task": "Moteur", "action": "Plein gaz > 5250 tours"},
+        {"task": "Rotation", "action": "60-65 km/h"},
+        {"task": "Palier accélération", "action": "Jusqu'à 110 km/h"},
+        {"task": "Montée", "action": "110 km/h"},
+        {"task": "A 300 pieds sol", "action": "Rentrer les volets"},
+        {"task": "A 1000 pieds sol", "action": "5000 tours - 110 km/h jusqu'à alti croisière"},
+        {"task": "Confirmer infos", "action": "Reçues"}
+      ]
+    },
+    {
+      "title": "7B. DÉCOLLAGE COURT",
+      "items": [
+        {"task": "Volets", "action": "2 crans"},
+        {"task": "Freins", "action": "Serrés"},
+        {"task": "Puissance", "action": "Plein gaz"},
+        {"task": "Freins", "action": "Relachés"},
+        {"task": "Rotation", "action": "50 km/h"},
+        {"task": "Montée initiale", "action": "70 km/h"},
+        {"task": "Dès que possible", "action": "Volets rentrés avec souplesse / Vitesse 110 km/h"},
+        {"task": "Confirmer infos", "action": "Reçues"}
+      ]
+    },
+    {
+      "title": "8. CROISIÈRE",
+      "items": [
+        {"task": "Moteur", "action": "Entre 4600 et 5200 tours"},
+        {"task": "Airbox (Heat Carb)", "action": "A maintenir > 20°"},
+        {"task": "Performance (Puissance 75%)", "action": "5000 tours / 18,5 l/h / 170 km/h"},
+        {"task": "Confirmer infos", "action": "Reçues"}
+      ]
+    },
+    {
+      "title": "9. APPROCHE ET ATTERRISSAGE",
+      "items": [
+        {"task": "Réchauffage carbu", "action": "Chaud"},
+        {"task": "Vent arrière", "action": "100 km/h - 4200 tours"},
+        {"task": "Volets", "action": "1 cran"},
+        {"task": "Base et Finale Vitesse", "action": "90 km/h - 3800 tours"},
+        {"task": "Base et Finale Volets", "action": "1 ou 2 crans"},
+        {"task": "Confirmer infos", "action": "Reçues"}
+      ]
+    },
+    {
+      "title": "10. ATTERRISSAGE VENT TRAVERS",
+      "items": [
+        {"task": "Réchauffage carbu", "action": "Chaud"},
+        {"task": "Vent arrière", "action": "100 km/h - 4200 tours"},
+        {"task": "Volets", "action": "1 cran"},
+        {"task": "Base et Finale Vitesse", "action": "90 km/h - 3800 tours"},
+        {"task": "Base et Finale Volets", "action": "1 ou 2 crans"},
+        {"task": "Technique", "action": "Garder manche au vent et pied contraire"},
+        {"task": "Confirmer infos", "action": "Reçues"}
+      ]
+    },
+    {
+      "title": "11. VITESSES ATTERRISSAGE",
+      "items": [
+        {"task": "Atterrissage lisse", "action": "100 km/h"},
+        {"task": "1 cran volet", "action": "90 km/h"},
+        {"task": "2 crans volet", "action": "80 km/h"},
+        {"task": "Confirmer infos", "action": "Reçues"}
+      ]
+    }
+  ]
+}

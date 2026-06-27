@@ -79,6 +79,16 @@
         {"task": "Température huile", "action": "50°C mini"},
         {"task": "Manette des gaz", "action": "4000 tr/mn"},
         {"task": "Vérification magnétos", "action": "Perte 300 tr/mn max / 120 tr/mn max entre magnétos"},
+        {"task": "Hélice - 1 : COMMANDE (instrument hélice)", "action": "Régler à 5750 RPM"},
+        {"task": "Hélice - 2 : MANETTE des gaz", "action": "4400 RPM / On ne touche plus à la manette des gaz jusqu'à la dernière étape"},
+        {"task": "Hélice - 3 : COMMANDE (instrument hélice)", "action": "Régler à 4000 RPM / Le régime moteur doit descendre à 4000 RPM"},
+        {"task": "Hélice - 4 : COMMANDE (instrument hélice)", "action": "Régler à 5750 RPM / Le régime moteur doit remonter à 4400 RPM"},
+        {"task": "Hélice - 5 : COMMANDE (instrument hélice)", "action": "Régler à 4000 RPM / P.A. Monte 0,5 à 1 pouce"},
+        {"task": "Hélice - 6 : COMMANDE (instrument hélice)", "action": "Régler à 5750 RPM / P.A. Descend, régime remonte"},
+        {"task": "Hélice - 7 : COMMANDE (instrument hélice)", "action": "Régler à 4000 RPM / Huile: pas de variation de pression ni de projection"},
+        {"task": "Hélice - 8 : COMMANDE (instrument hélice)", "action": "Régler à 5750 RPM / Le régime moteur doit remonter à 4400 RPM"},
+        {"task": "Hélice - 9 : MANETTE des gaz", "action": "IDLE (ou réduire selon besoin)"},
+        {"task": "Hélice - 10 : Avant Décollage COMMANDE (instrument hélice)", "action": "RÉGLER À 5500 RPM - Décollage normal / RÉGLER À 5750 RPM - Décollage court 5 mn MAX"},
         {"task": "Ralenti", "action": "Inférieur à 2000 tr/mn"}
       ]
     },
@@ -101,7 +111,8 @@
       "items": [
         {"task": "Hauteur de sécurité (300 pieds mini, Vitesse < 140 km/h)", "action": "Atteinte"},
         {"task": "Volets", "action": "Cran 0"},
-        {"task": "Régime", "action": "5500 tr/mn max"},
+        {"task": "Régime max 5 mn", "action": "5750 tr/mn : PA 27,5"},
+        {"task": "Puis régime", "action": "5500 tr/mn max en continu : PA 27"},
         {"task": "Aux Fuel Pump", "action": "OFF"},
         {"task": "Paramètres moteurs", "action": "Vérifiés"}
       ]
@@ -115,6 +126,16 @@
       ]
     },
     {
+      "title": "PARAMÈTRES CROISIÈRE (INFO)",
+      "items": [
+        {"task": "Altitude 2000 ft", "action": "4300 tr (55%): PA 24 | 4800 tr (65%): PA 26 | 5000 tr (75%): PA 26,5"},
+        {"task": "Altitude 4000 ft", "action": "4300 tr (55%): PA 22,5 | 4800 tr (65%): PA 24,5 | 5000 tr (75%): PA 24,5"},
+        {"task": "Altitude 6500 ft", "action": "4300 tr (55%): PA 20,5 | 4800 tr (65%): PA 22,5 | 5000 tr (75%): PA 22,5"},
+        {"task": "Altitude 8500 ft", "action": "5000 tr (75%): PA 21"},
+        {"task": "Altitude 9500 ft", "action": "5000 tr (75%): PA 20"}
+      ]
+    },
+    {
       "title": "CROISIÈRE",
       "items": [
         {"task": "Calage altimétrique", "action": "Vérifié (QNH ou 1013)"},
@@ -122,14 +143,6 @@
         {"task": "Régime", "action": "5500 t/mn Max"},
         {"task": "Température d'huile", "action": "Surveillée"},
         {"task": "Carburant", "action": "Conso équilibrée"}
-      ]
-    },
-    {
-      "title": "PARAMÈTRES CROISIÈRE (INFO)",
-      "items": [
-        {"task": "Altitude 600 m (2000 ft)", "action": "4300 tr (55%): PA 24 | 4800 tr (65%): PA 26 | 5000 tr (75%): PA 26"},
-        {"task": "Altitude 1200 m (4000 ft)", "action": "4300 tr (55%): PA 22,5 | 4800 tr (65%): PA 24,5 | 5000 tr (75%): PA 24,5"},
-        {"task": "Altitude 2000 m (6500 ft)", "action": "4300 tr (55%): PA 20,5 | 4800 tr (65%): PA 22,5 | 5000 tr (75%): PA 22,5"}
       ]
     },
     {
