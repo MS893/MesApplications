@@ -234,3 +234,14 @@ h4 {
 .delay-400 {
   animation-delay: 0.4s;
 }
+
+/* Image Zoom Hover Efecct */
+.img-zoom {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease;
+}
+
+.img-zoom:hover {
+  transform: scale(1.05);
+  border-color: var(--primary) !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 20px rgba(37, 99, 235, 0.15) !important;
+}
