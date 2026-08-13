@@ -2,6 +2,10 @@
   "name": "DR400 120",
   "type": "coeff",
   "grassFactor": 1.15,
+  "defaultMass": 900.0,
+  "minMass": 600.0,
+  "maxMass": 900.0,
+  "isMassLocked": false,
   "takeoffTable": {
     "0.0": {
       "-20.0": {
