@@ -1,6 +1,10 @@
 {
   "name": "DR400 125",
   "type": "multi",
+  "defaultMass": 900.0,
+  "minMass": 600.0,
+  "maxMass": 900.0,
+  "isMassLocked": false,
   "takeoffDur": {
     "0.0": {
       "-20.0": {
