@@ -1,4 +1,4 @@
-# SkyDev Apps - Écosystème Android pour Pilotes VFR
+# SkyDev Apps - Écosystème pour Pilotes VFR
 
 ![SkyDev Banner](assets/img/aeroclub.png) <!-- Utilisation de l'icône Aéroclub comme illustration par défaut -->
 
